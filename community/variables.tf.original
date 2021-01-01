@@ -5,34 +5,30 @@
 # ---------------------------------------------------------------------------------------------------------------------
 
 # Required by the OCI Provider
+variable "tenancy_ocid" {
+}
 
-# All variables will be taken from the environment and from the oci config file. The variable are:
+variable "compartment_ocid" {
+}
 
-#variable "tenancy_ocid" {
-#}
+variable "user_ocid" {
+}
 
-#variable "compartment_ocid" {
-#}
+variable "fingerprint" {
+}
 
-#variable "user_ocid" {
-#}
+variable "private_key_path" {
+}
 
-#variable "fingerprint" {
-#}
-
-#variable "private_key_path" {
-#}
-
-#variable "region" {
-#}
+variable "region" {
+}
 
 # Key used to SSH to OCI VMs
-#variable "ssh_public_key" {
-#}
+variable "ssh_public_key" {
+}
 
-#variable "ssh_private_key" {
-#}
-
+variable "ssh_private_key" {
+}
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Optional variables
