@@ -1,0 +1,135 @@
+======================================================================================================================================
+                   Realtek High Definition Audio Driver
+======================================================================================================================================
+Command : c:\dell\X2WY8\DELLMUP.exe /s
+Date : 2020-8-4  6:6:4.853
+User : Administrator 
+======================================================================================================================================
+Starting to get initial ...
+[OS] : 10.0
+    -Build : 19041
+    -XP : 0
+    -Vista : 0
+    -Win7 : 0
+    -Win8 : 0
+    -Win8.1 : 0
+    -Win10 : 1
+    -Service Pack : 0
+    -x64 system : 1
+    -MCE system : 0
+    -Server system : 0
+    -System Language ID : 0x0409
+    -User Language ID : 0x0409
+[Default Path] :
+    -tcRtkTempDir : c:\dell\X2WY8
+    -tcISSetupLocation : c:\dell\X2WY8
+
+Collecting inventory ...
+Checking driver version ...
+    [Realtek Audio Driver for DELL MUP Package]
+       MUP Package Version : 6.0.8903.1
+
+Executing update ...    [2020-8-4  6:6:4.869]
+    Run Setup Command : c:\dell\X2WY8\RealtekHDAudio\Setup.exe  /s /z[-rpc:\dell\X2WY8\RHDSetup.log]
+
+    -------- Realtek Installer response : c:\dell\X2WY8\RealtekHDAudio\Setup.log --------
+[InstallShield Silent]
+Version=v7.00
+File=Log File
+[ResponseResult]
+ResultCode=0
+[Application]
+Name=Realtek Audio Driver
+Version=4.75
+Company=Realtek Semiconductor Corp.
+Lang=0409
+
+    -------- Realtek Installer response end --------
+
+
+    -------- Realtek Installer response : c:\dell\X2WY8\RHDSetup.log --------
+[ResponseResult]
+ResultCode=0
+[Install Progress]
+ Confirm Realtek Driver = 0
+ Check Operation System Version 
+ OS Information [WINMAJOR Number] = 10
+ OS Information [WINMAJOR String] = 10.0
+ OS Information [SYSINFO.nWinMajor] = 6
+ OS Information [SYSINFO.nWinMinor] = 3
+ OS Information [CurrentMajorVersionNumber] = 10
+ OS Information [CurrentMinorVersionNumber] = 0
+ OS Information [Current Build] = 19041
+ OS Information [IsWin2000] = 0
+ OS Information [IsWinXP] = 0
+ OS Information [IsWin2003] = 0
+ OS Information [IsVista] = 0
+ OS Information [IsWin2008] = 0
+ OS Information [IsWin7] = 0
+ OS Information [IsWin8] = 0
+ OS Information [IsWin8.1] = 0
+ OS Information [IsWin10] = 1
+ OS Information [IsWin2008R2x64] = 0
+ OS Information [IsMCE] = 0
+ OS Information [IsServer] = 0
+ OS Information [Service Pack] = 0
+ OS Information [x64] = 1
+ Operation System was Windows x64
+ Rtlupd [GetRtlupdForPackage] = 1
+ Rtlupd version [c:\dell\X2WY8\RealtekHDAudio\\RtlUpd64.exe] = 3.3.0.2
+ Rtkupd version [\] = 
+ Current use Rtlupd version [c:\dell\X2WY8\RealtekHDAudio\\RtlUpd64.exe] = 3.3.0.2
+ Default Path [WDMDir] = Win64
+ Default Path [RtkAudioDir] = C:\Program Files (x86)\Realtek\Audio
+ Default Path [RtkAudioDir x64] = C:\Program Files\Realtek\Audio
+ Default Path [RtlTempDir] = C:\Program Files (x86)\Realtek\Audio\Drivers
+ Default Path [RtkHDADrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\Win64
+ Default Path [RtkHDMIDrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\HDMI\XP2K
+ Default Path [RtlPFHDADir] = C:\Program Files\Realtek\Audio\HDA
+ Default Path [bUSBDrvExist] = 0
+ Default Path [USBDrvDir] = c:\dell\X2WY8\RealtekHDAudio\USBAud
+ Default Path [RtkUSBDrvDir] = C:\Program Files (x86)\Realtek\Audio\USBAud\Driver
+ Default Path [USBSrcPath] = 
+ Default Path [RtkIntelHDASSTPath] = C:\Program Files (x86)\Realtek\Audio\Drivers\IntelHDASST
+ Default Path [RtkWOVHIDPath] = C:\Program Files (x86)\Realtek\Audio\Drivers\WOVHID
+ Default Registry key [Installer Base Key] = SOFTWARE\Realtek\Audio\Installer
+ Default Path [RandomDirPath] = c:\dell\X2WY8\RealtekHDAudio\Win64\Realtek\Codec_8903.1\
+ Current INF version = 6.0.8903.1  x64 Edition
+ Current SYS version = 6.0.8903.1
+ 
+ Use FileCompare to compare file version
+ Realtek HD Audio Driver Win64 Directory Exist .
+ Status - OnMoveData
+ Status - ProgramFiles_Installing
+ delete C:\Program Files (x86)\Realtek\Audio\Drivers\Win64
+ Copy Realtek HD Audio Driver from Win64 Directory
+ Copy Intel IntelHDASST Driver from "c:\dell\X2WY8\RealtekHDAudio\IntelHDASST"
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -s -cb -nrg2709 (TRUE)
+ Status - ProgramFiles_Installed
+ Copy .dat and .ini files
+ Install Realtek HD Audio Audio Driver 
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -u  -fasi -visst-s -fi -nrg2709 (TRUE)
+ -->Realtek HD Audio - SetupAPI result LAAW_PARAMETERS.nLaunchResult = -4
+ Special registry for hard-coding
+ Status - OnFirstUIAfter
+ Default Path [RandomDirPath] = c:\dell\X2WY8\RealtekHDAudio\Win64\Realtek\Codec_8903.1\
+ Installer - OnEnd
+
+    -------- Realtek Installer response end --------
+
+Execution update completed    [2020-8-4  6:6:41.562]
+The system should be restarted for the update to take effect.
+======================================================================================================================================
+
+[Update Result]...
+    Update ready to be applied at reboot .
+    Rtk Code = 0x00000000
+    IS Code = 0x00000000
+    Install Result = 1
+    UPD execution code = -4
+    USB UPD execution code = 
+    SetupAPI running code = 
+
+Exit Code = 3010 ( Reboot required )
+======================================================================================================================================
+End : 2020-8-4  6:6:41.562

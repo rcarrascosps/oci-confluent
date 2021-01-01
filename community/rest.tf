@@ -17,7 +17,7 @@ resource "oci_core_instance" "rest" {
   }
 
   metadata = {
-    ssh_authorized_keys = var.ssh_public_key
+    ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrw1MzdnciMQS5wd/6yHyylIRo/8IQB9Be8Pl2CnC2R1YkhbvDdnf6Ye0W1s/yroTigaSMHCpYAP+JBYUt8o8LQfTW9dXytnRgNPCFjx1YMdMmBWTXqA2zYI86ggcNfaBSLHDY4uQWOrsi4h40SJX9+jH7/32r5xfm/Y4fvDx/jva0ZdPZfKRgS0vG1QxcAKWhsI21ag62EC7hKWwVsUlMFjZn31yAifGPMs0Sfv4XF1ppV+LkaL87nLjf/Gse+9xHr7WiqTyXkqVpUR6IjlaFOxuhB4jl5t1lek+pYYbzlV0TTDkIrgDd+MeCfwj/xKEYuRo1ICesCKs5mUKLX2L5 root@rcarrascogb"
     user_data = base64encode(
       join(
         "\n",
